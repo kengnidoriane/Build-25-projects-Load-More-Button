@@ -1,0 +1,39 @@
+.load-more-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:  2rem;
+}
+
+.load-more-container h1 {
+    text-decoration: underline;
+    color: rgb(100, 99, 99);
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-self: center;
+    gap: 10px;
+}
+
+.product {
+    padding: 20px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container button{
+    padding: 1rem;
+    background-color: rgb(220, 220, 221);
+    color: rgb(87, 82, 77);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+}

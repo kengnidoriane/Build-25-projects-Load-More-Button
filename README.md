@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Project 5: Load more Button
+
+This feature can be used in e-commerce projects.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
